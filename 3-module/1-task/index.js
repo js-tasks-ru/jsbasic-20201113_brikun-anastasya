@@ -3,5 +3,6 @@
  * @returns {string[]}  объект
  */
 function namify(users) {
-  // ваш код...
+  const names = users.map(item => item.name);
+  return names;
 }
